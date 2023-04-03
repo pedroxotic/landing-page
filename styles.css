@@ -16,7 +16,7 @@ body{
     font-size: 24px;
     color:#F9FAF8;
 }
-.header-menu, .img, button, .hero-second{
+.header-menu, .img, button, .hero-second, #sign{
     font-size: 18px;
     color:#E5E7EB;
     
@@ -46,10 +46,13 @@ body{
     height: 185px;
     background-color:grey ;
     margin-left: auto;
-    display: flex;    
+    display: flex;  
+    flex-shrink: 0;
+  
 
 }
-.img-c{ margin:auto;}
+.img-c{ margin:auto;
+}
 
 button{
     background-color: #3882f6;
@@ -57,4 +60,91 @@ button{
     border: 0px;
     border-radius: 10px;
 
+
+}
+.info{
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1f2937;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.boxes{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.box-cont{
+    margin-right:30px;
+}
+.box{
+    border: 2px solid #3882f6 ;
+    border-radius: 10px;
+
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    
+}
+.boxt-txt{
+    width: 100px;
+    height:54px;
+    margin:auto;
+    text-align: center;
+}
+
+.third{
+    background-color: #E5E7EB;
+
+    padding: 150px 0;
+}
+.quote{
+    width: 770px;
+    font-style:  italic;
+    font-weight: lighter;
+    font-size: 36px;
+    margin:auto;
+
+}
+#author{
+margin-left:auto;
+width:fit-content;
+font-size: 18px;
+font-weight: bold;
+font-style: normal;
+
+}
+.bottom{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluebox{
+    width: fit-content;
+    background-color: #3882f6;
+    flex-basis: auto;
+    flex-grow: 0;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    width: 800px;
+}
+.footer{
+    background-color: #1f2937;
+    height: 60px;
+    color:#E5E7EB;
+    display: flex;
+}
+.footertxt{
+    margin: auto;
+}
+#btn2{
+    margin-left: auto;
+    width: fit-content;
+    border: 2px solid #E5E7EB;
 }
