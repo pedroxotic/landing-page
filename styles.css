@@ -47,7 +47,7 @@ body{
     background-color:grey ;
     margin-left: auto;
     display: flex;  
-    flex-shrink: 0;
+    flex-basis:auto;
   
 
 }
@@ -99,7 +99,7 @@ button{
 
 .third{
     background-color: #E5E7EB;
-
+    display:flex;
     padding: 150px 0;
 }
 .quote{
